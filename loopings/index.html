@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loopings</title>
+</head>
+<body>
+    <script>
+        // Laço for
+
+        let numero = Number(prompt('Digite o número que deseja multiplicar: '));
+        let multiplicador = Number(prompt('Digite até quanto deseja multiplicar: '));
+
+        calcularTabuada(numero, multiplicador)
+
+        function calcularTabuada(numero, multiplicador){
+            for(let i = 0; i <= multiplicador; i++){
+                document.write(`${numero} X ${i} = ${numero * i}<br>`);
+            }
+        }
+    </script>
+</body>
+</html>
